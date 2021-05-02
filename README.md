@@ -1,4 +1,4 @@
-# Captive_Portal
+# captive_portal
 Basic Captive Portal, redirects to single webpage on connecting to created Access Point. Very NOOB Freindly.<br>
 
 
@@ -20,16 +20,16 @@ sudo apt install python3 kea-dhcp4-server lighttpd hostapd xterm
 
 ## 💻 Usage
 
-1. CLone this repo:
+1. Clone this repo:
 
 ```bash 
-git clone https://github.com/wilcodex/Captive_Portal.git
+git clone https://github.com/wilcodex/captive_portal.git
 ```
 
 2. Change to cloned directory and run `run.sh` :
 
 ```bash
-cd Captive_Portal
+cd captive_portal
 sudo ./run.sh -i "Access Point Interface" -s "SSID of AP" -c "AP Channel" -p "Password"
 ```
 

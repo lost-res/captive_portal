@@ -1,37 +1,53 @@
-## Welcome to GitHub Pages
+# Captive_Portal
+Basic Captive Portal, redirects to single webpage on connecting to created Access Point. Very NOOB Freindly.<br>
 
-You can use the [editor on GitHub](https://github.com/wilcodex/captive_portal/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 💡 Prerequisite
+Any Linux OS (Preferably [UBUNTU](https://ubuntu.com/))   
+[Python3](https://www.python.org/)  
+[kea-dhcp4-server](https://kea.isc.org/)  
+[lighttpd](https://www.lighttpd.net)  
+[hostapd](https://w1.fi/hostapd/)  
+xterm
 
-### Markdown
+## 🛠️ Installation  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Install Prerequisites:
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```bash
+sudo apt install python3 kea-dhcp4-server lighttpd hostapd xterm
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## 💻 Usage
 
-### Jekyll Themes
+1. CLone this repo:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wilcodex/captive_portal/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```bash 
+git clone https://github.com/wilcodex/Captive_Portal.git
+```
 
-### Support or Contact
+2. Change to cloned directory and run `run.sh` :
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+```bash
+cd Captive_Portal
+sudo ./run.sh -i "Access Point Interface" -s "SSID of AP" -c "AP Channel" -p "Password"
+```
+
+> -i "Access Point Interface" -- Name of WiFi Interface of your machine. Default -> `wlan0` .  
+
+> -s "SSID" -- Name of WiFi Access Point to be seen to others. Default -- `My_Portal` .  
+
+> -c "Channel" -- Channel for WiFi Access Point. Default -> `5` .
+
+> -p "Password" -- Password for the WiFi Access Point. Default -> No Password Protection. Omit `-p` to use default.  
+
+3. To STOP -- `CTRL^C` in the main terminal.
+
+
+## 🛠️ Issues:
+
+> Would Love to Reolve.
+
+### Find Me on :
+<p align="left">
+  <a href="https://github.com/wilcodex" target="_blank"><img src="https://img.shields.io/badge/Github-wilcodex-green?style=for-the-badge&logo=github"></a>

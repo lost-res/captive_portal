@@ -1,4 +1,3 @@
-<title>captive_portal</title>
 # captive_portal
 Basic Captive Portal, redirects to single webpage on connecting to created Access Point. Very NOOB Freindly.<br>
 

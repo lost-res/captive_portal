@@ -7,8 +7,8 @@ readonly WorkspacePath=$(dirname $(readlink -f "$0"))
 CaptivePortalGatewayAddress="192.169.254.1"
 CaptivePortalGatewayNetwork=${CaptivePortalGatewayAddress%.*}
 
-CaptivePortalAccessInterface=wlp0s20f3
-APServiceSSID="test"
+CaptivePortalAccessInterface=wlan0
+APServiceSSID="My_Portal"
 APServiceChannel=5
 APKey=""
 

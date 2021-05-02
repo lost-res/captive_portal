@@ -2,7 +2,7 @@
 Basic Captive Portal, redirects to single webpage on connecting to created Access Point. Very NOOB Freindly.
 
 ## 💡 Prerequisite
-[Any Linux OS] Preferably `UBUNTU`
+Any Linux OS, Preferably [UBUNTU](https://ubuntu.com/)\n
 [Python 3](https://www.python.org/)
 [kea-dhcp4-server](https://kea.isc.org/)
 [lighttpd](https://www.lighttpd.net)
@@ -43,4 +43,4 @@ sudo ./run.sh -i "Access Point Interface" -s "SSID of AP" -c "AP Channel" -p "Pa
 
 ### Find Me on :
 <p align="left">
-  <a href="https://github.com/wilcodex" target="_blank"><img src="https://img.shields.io/badge/Github-HTR--TECH-green?style=for-the-badge&logo=github"></a>
+  <a href="https://github.com/wilcodex" target="_blank"><img src="https://img.shields.io/badge/Github-wilcodex-green?style=for-the-badge&logo=github"></a>

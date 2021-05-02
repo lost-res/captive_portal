@@ -13,24 +13,24 @@ Basic Captive Portal, redirects to single webpage on connecting to created Acces
 
 Install Prerequisites:
 
-'''bash
+```bash
 sudo apt install python3 kea-dhcp4-server lighttpd hostapd xterm
-'''
+```
 
 ## 💻 Usage
 
 1. CLone this repo:
 
-'''bash 
+```bash 
 git clone https://github.com/wilcodex/Captive_Portal.git
-'''
+```
 
 2. Change to cloned directory and run `run.sh` :
 
-'''bash
+```bash
 cd Captive_Portal
 sudo ./run.sh -i "Access Point Interface" -s "SSID of AP" -c "AP Channel" -p "Password"
-'''
+```
 
 > -i "Access Point Interface" -- Name of WiFi Interface of your machine. Default `wlan0` .
 > -s "SSID" -- Name of WiFi Access Point to be seen to others. Default `My_Portal` .

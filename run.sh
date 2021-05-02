@@ -78,7 +78,7 @@ touch "$WorkspacePath/dhcpd.leases"
 
 # Generate configuration for a lighttpd web-server.
 echo "\
-server.document-root = \"$WorkspacePath/captive_portal/\"
+server.document-root = \"$WorkspacePath/webpage/\"
 
 server.modules = (
     \"mod_access\",

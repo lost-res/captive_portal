@@ -50,4 +50,4 @@ sudo ./run.sh -i "Access Point Interface" -s "SSID of AP" -c "AP Channel" -p "Pa
 
 ### Find Me on :
 <p align="left">
-  <a href="https://github.com/wilcodex" target="_blank"><img src="https://img.shields.io/badge/Github-wilcodex-green?style=for-the-badge&logo=github"></a>
+  <a href="https://github.com/lost-res" target="_blank"><img src="https://img.shields.io/badge/Github-lost_res-green?style=for-the-badge&logo=github"></a>

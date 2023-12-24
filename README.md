@@ -46,7 +46,7 @@ sudo ./run.sh -i "Access Point Interface" -s "SSID of AP" -c "AP Channel" -p "Pa
 
 ## 🛠️ Issues:
 
-> Would Love to Reolve.
+> Would Love to Resolve.
 
 ### Find Me on :
 <p align="left">
